@@ -4,6 +4,7 @@ import "./WhatsApp.css"; // Styling for WhatsApp component
 const WhatsApp = ({ phoneNumber }) => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hello");
+    const phoneNumber = +919075346243;
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
 
