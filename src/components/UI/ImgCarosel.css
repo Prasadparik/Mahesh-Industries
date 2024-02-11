@@ -1,0 +1,15 @@
+.carousel-control-next-icon {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10rem;
+}
+
+.carousel-control-prev-icon {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10rem;
+}
+.visually-hidden {
+  display: none;
+}
+.carousel-item img {
+  border-radius: 0.5rem !important;
+}

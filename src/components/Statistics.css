@@ -1,0 +1,50 @@
+.StaticContainer {
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  background: #fff;
+}
+.StaticContainer h4 {
+  text-align: center;
+  margin-top: 2rem;
+}
+.staticRow {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  background-color: aliceblue;
+}
+.staticCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.staticCard div {
+  font-size: xx-large;
+  font-weight: 700;
+}
+.staticCard span {
+  font-size: bold;
+  font-weight: 500;
+}
+
+.clientRow {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  /* border-radius: 1rem; */
+  background-color: #27374d;
+}
+
+.clientCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.clientCard img {
+  max-width: 150px;
+  border-radius: 0.5rem;
+}

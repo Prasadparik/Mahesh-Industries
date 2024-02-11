@@ -1,0 +1,13 @@
+.Navbar {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 8px 1px #ccc;
+}
+.C-logo {
+  width: 2rem;
+}
+.Navbar span {
+  font-weight: 500;
+  font-size: larger;
+  padding: 0 0.5rem;
+}

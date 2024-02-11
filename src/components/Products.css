@@ -1,0 +1,14 @@
+.prodContainer {
+  margin-top: 2rem;
+}
+.prodCard {
+  margin-bottom: 2rem;
+}
+.prodCard img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.prodTitle {
+  font-size: larger;
+  font-weight: 700;
+}
