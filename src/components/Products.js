@@ -69,7 +69,7 @@ function Products() {
             <img src={prodImg3} alt="prodImg" />
             <div className="prodTitle">Cake base board.</div>
             <div className="prodDescription">
-              Colored paper for GR books, publicity material, notebook
+              {/* Colored paper for GR books, publicity material, notebook */}
             </div>
           </div>
         </Col>
