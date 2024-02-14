@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import WhatsApp from "./UI/WhatsApp"; // Import WhatsApp component
+import BrandPromo from "./UI/BrandPromo"; // Import WhatsApp component
 import "./footer.css";
 // Img Import ======================
 import logo from "../assets/MI-logo.png";
@@ -36,6 +37,7 @@ function Footer() {
           </Col>
         </Row>
       </Container>
+      <BrandPromo />
       <WhatsApp phoneNumber="919999999999" />
     </footer>
   );
