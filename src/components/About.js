@@ -2,32 +2,32 @@ import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import "./About.css";
 
+// Img Import ======================
+import img1 from "../assets/1.jpg";
+import logo1 from "../assets/client-logo-1.jpg";
+
 function About() {
   return (
     <Container className="AboutContainer">
       <Row>
         <Col sm={6} className="aboutImgCol">
-          <img
-            src="https://t3.ftcdn.net/jpg/02/67/15/54/360_F_267155492_0HGlA3se7l7ZIJbZ2bAdkCTG8FuCGTg6.jpg"
-            alt="img"
-          />
+          <img src={img1} alt="img" />
         </Col>
         <Col sm={6} className="aboutInfoCol">
           <h2>New Mahesh Industries</h2>
           <p>
-            We are an eco-conscious organization committed to the manufacturing
-            and supplying of premium quality paper made from agro and wood
-            materials. Our aim is to conserve resources and protect the
-            environment through innovative and sustainable practices. Founded in
-            1980 in the village of Saila Khurd, located in District Hoshiarpur,
-            Punjab, India, our mill was established with a clear purpose, that
-            is, to harness the untapped potential of Agro vegetations such as
-            Sarkanda Grass, Kahi Grass, and agro-residues like Wheat straw and
-            Bagasse for manufacturing writing and printing paper of premium
-            quality. These residues were traditionally burnt in fields,
-            contributing to environmental pollution. By repurposing them for
-            paper production, we were successful in mitigating this ecological
-            degradation.
+            At Mahesh Industries, we take pride in being pioneers in the
+            manufacturing of premium quality sun dry board pure craft products.
+            With an unwavering commitment to excellence, we utilize the finest
+            raw materials to create high-quality puttha, catering to the diverse
+            needs of our clients in the production of various items such as box
+            files, four-flap folders, two-flap folders, and bill books. Our
+            Vision: Our vision at Mahesh Industries is to continue leading the
+            industry with innovative solutions and superior craftsmanship. We
+            strive to be the preferred choice for businesses seeking reliable
+            and top-notch sun dry board pure craft products, while maintaining a
+            steadfast dedication to sustainability, customer satisfaction, and
+            growth.
           </p>
         </Col>
       </Row>
